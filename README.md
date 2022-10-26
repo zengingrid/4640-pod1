@@ -19,3 +19,7 @@ ansible -m ping -u root all --private-key id_rsa
 ```
 ![image](https://user-images.githubusercontent.com/71790092/197946595-83310fbf-9672-4519-9fdd-fdfb3140d1f5.png)
 
+to run tasks:
+```bash
+ansible-playbook user_setup.yml --private-key id_rsa -u root
+```
