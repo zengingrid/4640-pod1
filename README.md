@@ -26,3 +26,8 @@ ansible-playbook user_setup.yml --private-key id_rsa -u root
 ```bash
 ansible-playbook configure_podman.yml --private-key id_rsa -u root
 ```
+results
+![image](https://user-images.githubusercontent.com/71790092/197962437-e81f6cc1-f705-4abe-b814-ecaaa98066af.png)
+![image](https://user-images.githubusercontent.com/71790092/197962532-1414a50b-e681-456d-9af6-4ca524afa1f0.png)
+![image](https://user-images.githubusercontent.com/71790092/197962621-81fc4366-57ef-481a-9499-e92d8e9e1ab4.png)
+![image](https://user-images.githubusercontent.com/71790092/197962661-17a1b7a2-32ea-4a48-a8f3-49088b8688f9.png)
