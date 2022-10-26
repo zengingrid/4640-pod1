@@ -1,5 +1,10 @@
 # 4640-pod1
 
+for vms in digital ocean:
+- ubuntu
+- fedora
+tag for both: Web
+
 in this repo:
 - ansible.cfg
 - inventory/inventory file(s)
