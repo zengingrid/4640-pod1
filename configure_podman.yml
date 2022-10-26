@@ -1,0 +1,19 @@
+---
+- hosts: all
+  tasks:
+    - name: installing podman
+      become: true
+      package:
+        name: podman
+        state: present
+    - name: pull image
+      podman_image:
+        name: docker.io/httpd
+        tag: 2-alpine
+    - name: create a container
+      containers.podman.podman_container:
+        name: my_container
+        image: docker.io/httpd:2-alpine
+        state: started
+          
+        
