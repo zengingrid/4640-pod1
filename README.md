@@ -12,6 +12,5 @@ once everything is set up: run
 ```bash
 ansible -m ping -u root all --private-key id_rsa
 ```
-check connection:
 ![image](https://user-images.githubusercontent.com/71790092/197946595-83310fbf-9672-4519-9fdd-fdfb3140d1f5.png)
 
