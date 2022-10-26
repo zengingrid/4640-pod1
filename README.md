@@ -23,3 +23,6 @@ to run tasks:
 ```bash
 ansible-playbook user_setup.yml --private-key id_rsa -u root
 ```
+```bash
+ansible-playbook configure_podman.yml --private-key id_rsa -u root
+```
