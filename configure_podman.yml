@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: Web
   tasks:
     - name: installing podman
       become: true
@@ -15,5 +15,10 @@
         name: my_container
         image: docker.io/httpd:2-alpine
         state: started
+        detach: true
+        exposed_ports:
+          - 80
+        ports: 
+          - 4444:80
           
         
